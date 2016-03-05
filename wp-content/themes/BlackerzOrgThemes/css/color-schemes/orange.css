@@ -1,0 +1,268 @@
+a {
+	color: #FE7E17;
+}
+/*
+ul#mainnav li a:active span {
+	color: #FE7E17;
+	border-bottom-color: #FE7E17;
+}*/
+
+#spinner:before {
+	border-top-color: #FE7E17;
+	border-left-color: #FE7E17;
+	border-right-color: #FE7E17;
+}
+
+#qLbar {
+	background: #FE7E17;
+	color: #FE7E17;
+}
+
+.widget .tagcloud a:hover {
+	background: #FE7E17;
+	color: #fff;
+}
+
+.widget-tweet-text a {
+	color: #FE7E17;
+}
+
+.next-prev-posts a:hover {
+	color:#FE7E17;
+}
+
+.nav-btn:hover {
+	color: #FE7E17;
+}
+
+.share-options a:hover {
+	color: #FE7E17;
+}
+
+ul#mainnav > li.highlighted-state > a span, ul#mainnav > li.current > a span/*,
+ul#mainnav > li.current-menu-item > a span, .dark-header ul#mainnav > li.current-menu-item > a span*/  {
+	color: #FE7E17;
+	border-bottom: 1px solid #FE7E17;
+	padding-bottom: 2px;
+}
+
+.dark-header ul#mainnav > li > a:hover > span {
+	border-bottom: 1px solid #FE7E17 !important;
+}
+
+.dark-header ul#mainnav > li.item-active > a, .dark-header ul#mainnav > li > a.sf-with-ul:hover, .dark-header ul#mainnav li > a.sf-with-ul:active, .dark-header ul#mainnav > li > a.sf-with-ul:hover, .dark-header ul#mainnav li > a.sf-with-ul:active, .dark-header ul#mainnav li a:hover, .dark-header ul#mainnav li a:active, .dark-header ul#mainnav li a.current-menu-item {
+	color: #FE7E17;	
+}
+
+.skillbar-bar {
+	background: #FE7E17;
+}
+
+.wrapper-service i {
+	color: #FE7E17;	
+}
+
+.tweet_time a:hover, a.tweet_action:hover {
+    color: #FE7E17;
+}
+
+.team-text h3 span {
+	border-bottom: 1px solid #FE7E17;
+}
+
+.testimonial-name {
+	color: #FE7E17;
+}
+
+.dt-service-item:hover {
+	background: #FE7E17;
+	border: 1px solid #FE7E17;
+}
+
+h1.section-title:after {
+	background: #FE7E17;
+}
+
+.team-social a:hover {
+	color:#FE7E17;
+}
+
+.service-item i {
+	color:#FE7E17;
+}
+
+h1.masonry-title a:hover,  .post-content h1 a:hover {
+	color:#FE7E17;
+}
+
+ul#social li a:hover {
+	border-color: #FE7E17;
+}
+
+#header-social a:hover {
+	color: #FE7E17;
+}
+
+ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover, .dark-header ul#mainnav li ul li a:hover, .dark-header ul#mainnav li ul li ul li a:hover {
+    color: #FE7E17;
+}
+
+.tags ul li a:hover {
+	background:#FE7E17;
+}
+
+.sidebar-post span a {
+	color:#FE7E17;
+}
+
+ul#filters li a.selected {
+	border: 1px solid #FE7E17;
+	color: #323232;
+}
+
+h1.masonry-title a:hover,  .post-content h1 a:hover {
+	color:#FE7E17;
+}
+
+a.comment-reply-link:hover {
+	background:#FE7E17;
+	color:#fff !important;
+}
+
+ul.tabs li.active {
+    border-top: 2px solid #FE7E17;
+    top: 1px;
+    
+}
+
+.featured-column .column-shadow {
+	background:#FE7E17;
+}
+
+.featured-column .package-title {
+	border-bottom: 3px solid #FE7E17;
+	background: #FE7E17;	
+	border-right: 0;
+}
+
+.customlist li i {
+	color:#FE7E17;
+	font-size: 14px;
+}
+
+.widget a:hover {
+	color:#FE7E17;
+}
+
+ul.tags a:hover {
+	color:#FE7E17;
+}
+
+.authorp h2 a:hover {
+	color:#FE7E17;
+}
+
+.comment a:hover {
+	color:#FE7E17;
+}
+
+#toggle-view li.activated h3 {
+	color:#FE7E17;
+}
+
+
+ul#filters li a:hover {
+	border: 1px solid #FE7E17;
+	color: #323232;
+}
+
+ul#filters li.selected a {
+	color:#fff;
+	background:#FE7E17;	
+}
+
+.portfolio h3 a:hover {
+	color:#FE7E17;
+}
+
+.pagenav a:hover {
+    background:#FE7E17;
+    color:#fff;
+	border: 1px solid #FE7E17;
+}
+
+span.current-menu-item {
+    background: #FE7E17; 
+    border: 1px solid #FE7E17;
+}
+
+#footer a:hover {
+	color:#FE7E17;
+}
+
+.toggle-plus {
+	width: 28px;
+	height: 28px;
+	font-family: fontawesome;
+	color: #323232;
+	cursor: pointer;
+	text-align: right;
+}
+
+.toggle-plus:before {
+	content: "\f0dd";	
+}
+
+.toggle-minus {
+	width: 28px;
+	height: 28px;
+	color: #FE7E17;
+	top: 14px !important;
+}
+
+.toggle-minus:before {
+	content:"\f0de";
+}
+
+.jp-play-bar {
+	background: #FE7E17;
+}
+.jp-volume-bar-value {
+	background: #FE7E17;
+}
+
+html .wpb_content_element .wpb_tabs_nav li.ui-state-active {
+	border-top: 2px solid #FE7E17;
+	top: 1px;	
+}
+
+html .wpb_tour.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-state-active  {
+	border-top: none;
+	border-left: 2px solid #FE7E17;
+	top: 0;
+}
+
+html .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-state-active a {
+	padding-left: 23px;
+}
+
+html .wpb_accordion .wpb_accordion_wrapper .ui-state-active a, html .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	color: #FE7E17;
+}
+
+html h4.wpb_toggle_title_active, html h4.wpb_toggle.wpb_toggle_title_active:after {
+	color: #FE7E17;
+}
+
+.bold-fill .dt-service-icon i {
+	background: #FE7E17;
+}
+
+.thin-fill .dt-service-icon i {
+	border: 1px solid #fe7e17;
+	color: #fe7e17;
+}
+
+.no-fill .dt-service-icon i {
+	color: #fe7e17;	
+}

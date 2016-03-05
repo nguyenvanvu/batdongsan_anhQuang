@@ -1,0 +1,5 @@
+/*CSS for admin area*/
+
+html .wpb_content_element > .wpb_element_wrapper {
+	border: 1px solid #efefef;
+}

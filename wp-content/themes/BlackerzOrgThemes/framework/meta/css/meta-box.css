@@ -1,0 +1,546 @@
+/**
+ * All Types Meta Box Class CSS
+ *
+ * CSS used for the custom metaboxes and other form items.
+ *
+ * Copyright 2011 Ohad Raz (admin@bainternet.info)
+ */
+
+/* =Common Rules for all fields.
+----------------------------------------------- */
+
+input#dt_posts_number {
+	width: 50px;
+}
+
+#dt_portf_link, #dt_portf_video, #dt_portf_gallery, #dt_team_link {
+	width: 93%;
+}
+
+td#dt_portf_link, td#dt_nav_number, td#dt_portf_video, td#dt_portf_gallery, td#dt_team_link {
+	display: none;
+}
+
+#portfolio_icon tr {
+	display: block;
+}
+
+#dt_service_icon {
+	overflow: scroll;
+	height: 400px;	
+}
+
+.add-new-item {
+	position:relative;
+	background-color: white;
+	border: 1px solid #E7E7E7;
+	margin: 5px 2px;
+	box-shadow: 0px 2px 3px #EFEFEF;
+	width: 32.1%;
+	height:28px;
+	cursor:pointer;
+	float:left;
+	background: #fff url("../images/add.png") no-repeat scroll center center;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;		
+}
+
+.add-new-item:hover {
+	background-color:#fafafa;
+}
+
+.add-new-item img {
+	
+}
+
+#dt_subheader_options .select2-container {
+	width:40%;
+}
+
+#dt_page_options .simplePanelImagePreview img, #dt_subheader_options .simplePanelImagePreview img, #dt_parallax_bg .simplePanelImagePreview img {
+	width: auto !important;
+	height: auto !important;
+}
+
+#dt_page_options .radio-item , #dt_subheader_options .radio-item, #dt_parallax_bg .radio-item {
+	float:left;
+	margin-right:10px;
+}
+
+#dt_page_options .radio-item input, #dt_subheader_options .radio-item input, #dt_parallax_bg .radio-item input {
+	margin: 3px 5px 0 0 !important;
+}
+
+#dt_parallax_bg {
+	display: none;
+}
+
+#dt_parallax_bg .wp-picker-container, #dt_parallax_bg .wp-picker-container:active {
+	display: block;
+}
+
+#dt_services_options i {
+	font-size: 16px;
+	line-height: 40px;
+	height: 40px;
+	width:40px;
+	display:inline-block;	
+	text-align:center;
+	border: 1px solid #ccc;
+	margin: 5px;	
+	float: left;
+	cursor:pointer;	
+	color:#444;		
+}
+
+#dt_services_options i:hover {
+	border: 3px solid #e1472f;	
+	margin:3px;
+	color:#e1472f;
+	font-size:28px;
+}
+
+i.icon-selected {
+	border: 3px solid #e1472f !important;	
+	margin:3px !important;	
+	color:#e1472f !important;
+	font-size:28px !important;
+}
+
+#dt_services_options span.icon-wrapper:hover {
+
+}
+	
+#portfolio_icon .imageradio-field .of-radio-img {
+	width:45px;
+	height:45px;
+}
+.input-item {
+	height: 15px;
+	line-height: 15px;
+	margin-bottom: 10px;
+}
+.input-item input {
+	margin-right:15px !important;
+}
+
+#dt_contact_options .select2-container {
+	float:left;
+	clear:both;
+	width:30%;
+}
+#dt_contact_options .select-field .at-desc {
+	clear:both;
+	float:left;
+}
+
+#dt_gallery_post_custom_fields .at-text, #portf_more_images .at-text, #dt_portf_gallery .at-text {
+	width:100%;
+}
+#dt_gallery_post_custom_fields .text-field, #portf_more_images .text-field, #dt_portf_gallery .text-field {
+	text-align:left;
+	margin-left: 9.5%;
+	width:75%;
+}
+
+#dt_link_post_custom_fields .at-radio {
+	margin-right:10px !important;
+}
+.radio-item {
+	margin-bottom:10px;
+	color:#777;
+}
+.info-block {
+	position:relative;
+}
+.info-block img {
+	position:absolute;
+	top:0;
+	left:0;
+}	
+.info-block span {
+	margin-left: 40px;
+	font-size: 13px;
+	color: #777;
+	line-height: 20px;
+	display:block;
+}
+
+#dt_standard_post_custom_fields  .form-table td.at-field {
+    width: 560px;
+    border: none;
+}
+#dt_standard_post_custom_fields .at-label {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #444;
+}
+
+#portf_more_images .at-field input {
+	margin-right: 0 !important;
+}
+
+#dt_gallery_post_custom_fields .at-label, #portf_more_images .at-label, #dt_portf_gallery .at-label {
+	display:block;
+	font-size:14px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#dt_gallery_post_custom_fields .image-field .at-label, #portf_more_images .image-field .at-label, #dt_portf_gallery .image-field .at-label {
+	display:none;
+}
+#dt_gallery_post_custom_fields .select2-container, #portf_more_images .select2-container, #dt_portf_gallery .select2-container {
+	width:62%;
+}
+#dt_gallery_block {
+	clear:both;
+	position:relative;
+}
+#add-dt_gallery_block {
+	float:left;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+
+.imageradio-field .img-radio {
+	display:none;
+}
+.imageradio-field .dt-radio-label {
+	display:none;
+}
+
+.imageradio-field .of-radio-img {
+	border: 2px solid #fff;
+	margin: 5px 7px 10px 0;
+	cursor: pointer;
+	width: 56px;
+}
+
+.imageradio-field .of-radio-img:hover {
+	opacity:0.9;
+}
+
+.imageradio-field .radio-img-selected {
+	border: 2px solid #696969;
+}
+#page_sidebars .at-field {
+	border:none;
+}
+.form-table tr {
+	display:inline-block;
+	position:relative;
+	width: 100%;
+}
+#dt_gallery_post_custom_fields .form-table tr, #dt_portf_gallery .form-table {
+	width:100%;
+}
+
+#portfolio_icon .form-table td.at-field {
+	border:none;
+	padding:0;
+}
+#portfolio_icon tbody {
+	display:inherit;
+}
+
+
+.slide-no {
+	display:inline-block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:50px;
+	height: 25px;
+	line-height: 26px;
+	padding: 0 5px;
+	z-index: 10;
+}
+.dt_sortable {
+	width: inherit;
+	position: relative;
+	background: #efefef url(../images/arrow-move.png) no-repeat scroll center center;
+	display: inline-block;
+	width: 100%;
+	height: 24px;
+	float: left;
+	margin-top: 1px;	
+	margin-bottom:20px;
+}
+
+.form-table .at-field {
+	width:94%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.form-table .at-inline {
+	display:block;
+}	
+.form-table tbody {
+	width:100%;
+	display:inline-block;
+}
+
+.simplePanelImagePreview img {
+	border-radius: 3px;
+	position: relative;
+	border: none;
+}
+
+#portf-media .at-field {
+	
+}
+
+.form-table td.at-field{ border: 1px solid #DDD; padding:2% 3%; margin: 0px; font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, sans-serif; }
+.at-label { 
+	margin: 0 0 10px 0; 
+	padding: 5px 0 0 0; 
+	line-height: 30px;
+	/* float: left; */
+	font: 12px/20px "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Arial, sans-serif; 
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 0; 
+	width: auto; 
+	font-size: 14px;
+}
+						
+.at-radio-label{ padding-right: 10px; }				
+.at-file-upload-label{ clear: both; margin: 5px 0px 5px 1px; }	
+
+
+/* =Form Fields
+----------------------------------------------- */
+.postbox .at-field input,
+.postbox .at-field textarea { 
+	padding: 5px; 
+	line-height: 14px; 
+	float: left;
+	margin-right: 20px;
+} 
+.postbox .at-field input.at-radio{
+
+}
+.postbox .at-field input.at-color{ border: 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin-right: 10px; min-width: 100px; }
+.at-field input:focus, 
+.at-field textarea:focus { background: #fffff8; }
+#wpcontent select.at-select { height: 30px !important; padding: 5px; display: block; min-width: 200px; }
+.at-field .desc-field { color: #AAA; font-style: italic; margin: 5px 0 0 3px !important; font-size: 13px; float: left; clear: both;}
+.at-field .wp_themeSkin table.mceLayout{ border: 1px solid #DFDFDF; }
+#post-body .at-field .wp_themeSkin .mceStatusbar a.mceResize{ top: -25px; } 
+
+/* =Uploaded Images
+----------------------------------------------- */
+.at-images li { margin: 5px 10px 0px 0; float: left; width: 150px; height: 150px; text-align: center; border: 3px solid #ccc; cursor: move; position: relative; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.at-images img { width: 150px; height: 150px; }
+.at-images a { position: absolute; top: -12px; right: -12px; color: #fff;  font-weight: bold; padding: 5px; }
+.at-images .at-delete-file img{ width: 16px; height: 16px; }
+
+/* =Upload Button
+----------------------------------------------- */
+.at-upload-button { float: left; clear: both; margin-top: 10px; }
+.at-add-file { float: left; clear: both; margin-top: 10px; }
+ 
+/* =Time Picker
+----------------------------------------------- */
+.ui-timepicker-div { font-size: 0.9em; }
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; }
+.ui-timepicker-div dl dd { margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+/* =Repater Block
+----------------------------------------------- */
+/* inline */
+.at-inline label{font-size: 12px !important;}
+.at-inline textarea{height: 130px;width: 200px;}
+
+/* code Editor */
+.CodeMirror{
+	background-color: #fff;
+}
+
+
+#inner_slider td.at-field label[for=haze_image] {
+	position: absolute;
+	clear: both;
+	width: 100%;
+	top: 2px;
+	left: 25px;
+}
+
+img.add-slide {
+	cursor:pointer;
+}
+#portf_media .at-repater-block, #line_slider .at-repater-block, #dt_gallery_post_custom_fields .at-repater-block, #portf_more_images .at-repater-block, #dt_portf_gallery .at-repater-block {
+	position:relative;
+	background-color: white;
+	border: 1px solid #E7E7E7;
+	margin: 5px 2px;
+	box-shadow: 0px 2px 3px #EFEFEF;
+	width: 32.1%;
+	float:left;
+	min-height: 216px;
+}
+#dt_portf_gallery .at-repater-block {
+	min-height: 100px;
+	width: 30%;
+}
+
+#dt_portf_gallery .slide-no {
+	display: none;
+}
+
+#dt_portf_gallery .dt_sortable {
+	background-position: right center;
+	margin-bottom: 10px;
+}
+
+#dt_portf_gallery .at-field.image-field {
+	width: 100%;
+}
+
+#dt_portf_gallery .re-control {
+	position: absolute;
+	left: 3px;
+	top: 5px;
+	cursor: pointer;
+}
+
+#dt_portf_gallery .repeater-table {
+	padding-bottom: 10px;
+}
+
+#dt_portf_gallery .button {
+	width: 87%;
+	height: 40px;
+	display: block;
+	white-space: normal;
+	left: 5%;
+	position: relative;
+}
+
+#dt_portf_gallery .desc-field {
+	width: 90%;
+}
+
+#dt_portf_gallery .add-new-item {
+	width: 30%;
+}
+
+#portf_media .at-repater-block .at-field input, #line_slider .at-repater-block .at-field input, #dt_gallery_post_custom_fields .at-repater-block .at-field, #portf_more_images .at-repater-block .at-field, #dt_portf_gallery .at-repater-block .at-field {
+	margin-right:0;
+}
+#portf_media .mupload_img_holder img, #line_slider .mupload_img_holder img, #dt_gallery_post_custom_fields .mupload_img_holder img, #portf_more_images .mupload_img_holder img, #dt_portf_gallery .mupload_img_holder img {
+	padding:3px;
+	border:1px solid #efefef;
+	border-radius:3px;
+	box-shadow:0px 0px 3px #efefef;
+}
+#portf_media #remove-dt_slider_repeat, #remove-dt_nivo_slider_block, #remove-dt_gallery_block, #portf_more_images #remove-dt_more_images_block {
+	position: absolute;
+	top: 4px;
+	right: 5px;
+	cursor:pointer;
+	z-index: 1000;
+}
+#portf_media .repeater-table, #dt_gallery_post_custom_fields .repeater-table, #portf_more_images .repeater-table, #dt_portf_gallery .repeater-table {
+	padding: 1px;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	display:block;
+	overflow: hidden;
+	padding-bottom: 20px;
+}	
+
+#line_slider .repeater-table {
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	display:block;
+	height:auto;
+}	
+
+#portf_media .repeater-table .at-field, #line_slider .repeater-table .at-field, #dt_gallery_post_custom_fields .repeater-table .at-field , #portf_more_images .repeater-table .at-field, #dt_portf_gallery .repeater-table .at-field {
+	clear: both;
+	float: left;	
+	/* position: relative; */
+}
+#portf_media .at-label, #line_slider .at-label {
+	display:none;
+}
+
+#portf_media .at-field input, #line_slider .at-field input, #dt_gallery_post_custom_fields .at-field input, #portf_more_images .at-field input, #dt_portf_gallery .at-field input {
+	float:none;
+}
+#portf_media .at-textarea, #line_slider .at-textarea, #dt_gallery_post_custom_fields .at-textarea {
+	margin-right:0px;
+	width:98%;
+	height:110px;
+}
+#portf_media .at-field .desc-field, #line_slider .at-field .desc-field, #dt_gallery_post_custom_fields .at-field .desc-field, #portf_more_images .at-field .desc-field {
+	clear:both;
+	margin-top:10px;
+}
+.slide-nr {
+	float: left;
+	width: 100%;
+	background: #F8F8F8;
+	margin: 0;
+	position: relative;
+	padding:3px 0;
+}
+.slide-nr span {
+	margin-left:10px;
+	color:#6e6e6e;
+}
+.at-delete_image_button, .at-upload_image_button {
+	cursor:pointer;
+}
+#add-dt_slider_repeat {
+	float:left;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+#add-dt_nivo_slider_block {
+	cursor:pointer;
+	margin-bottom:10px;	
+}
+.at-inline .at-text {
+	width: 100%;
+}
+#portfolio_options .radio-option {
+	margin-bottom:10px;
+	clear: both;
+	margin-left: 30px;	
+}
+#portfolio_categories_meta, #portfolio_options {
+	
+}
+#portfolio_categories_meta .at-label, #portfolio_options .at-label {
+	margin-bottom:20px;
+	width:100%;
+}
+#portfolio_categories_meta .input-option {
+	margin-bottom:10px;
+	clear: both;
+	margin-left: 30px;	
+}
+#portfolio_categories_meta input {
+	margin-top:3px;
+	margin-right:15px;
+}
+input#dt_nav_number {
+	width:50px;
+}
+#portfolio_options table tr[3] {
+	background:#ccc;
+}
+
+input.dt_portfolio_columns_option_0 {
+	background:url(../images/2-col-portfolio.png) no-repeat scroll 0 0;
+	display:block;
+}
